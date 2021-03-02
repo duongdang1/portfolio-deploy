@@ -1,0 +1,24 @@
+.Tabs{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid  #1F2833;
+    background:  #1F2833;
+}
+.Tabs{
+    max-width: 800px !important;
+}
+.tab-list{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    border-bottom: 1px solid  #1F2833;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+.tab-item{
+    color: whitesmoke;
+    font-size: 20px;
+    width: 500px;
+}

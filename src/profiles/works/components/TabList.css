@@ -1,0 +1,19 @@
+.work-tab-list{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.work-tab-item{
+    padding: 10px;
+    border: none !important;
+}
+.work-tab-item h1{
+    color: whitesmoke;
+}
+.work-tab-item  li {
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+    padding: 5px;
+}
