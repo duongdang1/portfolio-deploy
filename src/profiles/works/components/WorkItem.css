@@ -1,11 +1,30 @@
-
-
+.section-content{
+    display: flex;
+    flex-wrap:wrap;
+}
+.intro-item__info{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
 .intro-item__info .title-style h1{
-    font-size: 30px;
+    font-size:30px;
+    width: 100%;
     text-align: left;
+    margin: 0;
 }
 
-.section-content{
-    height: 100%;
-    width: 100%;
+
+@media (max-width: 1300px){
+    .tab {
+        display: none;
+    }
+    .intro-item__info{
+        font-size: 3px;
+    }
+}
+@media (min-width: 1300px){
+    .work-tab-item{
+        display:none;
+    }
 }

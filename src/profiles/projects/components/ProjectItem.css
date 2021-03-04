@@ -1,4 +1,6 @@
+
 .project-intro-item__info{
+    
     text-align: center;
     
 }
@@ -35,7 +37,7 @@
 .modalText{
     font-size: 10px;
     font-weight:10px;
-    width: 50%;
+    width: 60%;
     color: whitesmoke;
     text-align: end;
     
@@ -53,7 +55,7 @@
     font-weight: lighter;
     font-size: 20px;
     
-    text-align: end;
+
 
 }
 
@@ -102,4 +104,31 @@
 .project-social-container{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+@media (max-width: 1300px ){
+    .modalImage img{
+        display: none;
+    }
+
+    .modalText {
+        width: 100;
+        text-align: left;
+    }
+    .modalImage-2 img{
+        display: none;
+    }
+
+    .modalText-2 {
+        width: 100;
+        text-align: left;
+    }
+    .about-item__info{
+        padding: 0;
+    }
+
+    .about-info .info{
+        width: 100%;
+        font-size: calc(18px + 10vw);
+    }
 }
