@@ -10,7 +10,10 @@ const WorkItem = (props) => {
           <div className="title-style">
             <h1>{props.title}</h1>
           </div>
-          <div className="work-tab-item">
+          <div className="tab">
+            <TabProject/>
+          </div>
+          <div className="work-tab">
           
             <div className="first-work">
               <h1>Student Technician at ITS - Learning Environment, Union College</h1>
@@ -32,10 +35,8 @@ const WorkItem = (props) => {
               <li> - C4T - Python: Students learn the fundamentals of programming through Python. Students will then develop their own application.</li>  
             </div>
          
-        </div>
-          <div className="tab">
-            <TabProject/>
           </div>
+          
         </div>
       </Zoom>
     </div>

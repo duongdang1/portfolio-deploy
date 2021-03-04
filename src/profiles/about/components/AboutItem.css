@@ -11,16 +11,7 @@
     
 
 }
-.section-content-about {
-    
-    
-    
-    /* background-color: blueviolet; */
-    
-    
-    
 
-}
 
 .about-item__info{
     
@@ -28,7 +19,7 @@
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 80%;
-    padding-left: 200px;
+    
     
     
 }
@@ -109,7 +100,7 @@
 }
 
 
-@media (max-width: 1300px ){
+@media (max-width: 1090px ){
     .about-info .image{
         display: none;
     }
@@ -121,4 +112,13 @@
         width: 100%;
         font-size: calc(18px + 10vw);
     }
+}
+
+
+@media (min-width: 1800px){
+    
+    .about-item__info{
+        max-width: 80%;
+        padding-left: 200px;
+    }    
 }

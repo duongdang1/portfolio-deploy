@@ -15,6 +15,7 @@ const IntroItem = (props) => {
             
             </div>
             <SocialFollow/>
+            
           </Zoom>  
         </div>
       </div>

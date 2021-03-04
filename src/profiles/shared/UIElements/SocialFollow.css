@@ -1,6 +1,6 @@
 .social-container{
     
-    padding: 100px 1px;
+    padding: 50px 1px;
 
 }
 
@@ -25,7 +25,9 @@ a.instagram{
     
     
 }
-
+a.linkedin{
+    color: white;
+}
 a.github{
     color: white;
 }

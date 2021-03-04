@@ -69,13 +69,17 @@ const ProjectItem = (props) => {
                 <a href="https://github.com/duongdang1/projectgame" className="link social"><FontAwesomeIcon icon={faFileCode} size="2x"/></a>
               </div>
               <Button inverse onClick={openDetailHandler}>
-                use this credential to sign in
+                credentials
               </Button>
             </div>
+
+            
             
           </div>
 
-
+          <div className="credit">
+              <h1>Design and Built by Dang Duong - 2020</h1>
+          </div>
           
           <Modal
             show={showDetail}
