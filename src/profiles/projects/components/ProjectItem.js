@@ -89,7 +89,7 @@ const ProjectItem = (props) => {
               <h1>Feature Project</h1>
               <h3>Arduino Laundry Loader</h3>
           
-              <h2>Build a machine that can measure the weight of the laundry load and drop tied-pods when reach a certain weight. The machine is assembled by using cut woods, HX711 sensor, Arduino kit. The sensor and motor's motion is instructed by code in C++ (Arduino). </h2>
+              <h2>I built a machine that can measure the weight of the laundry load and drop tied-pods when reach a certain weight. The machine is assembled by using cut woods, HX711 sensor, Arduino kit. The sensor and motor's motion is instructed by code in C++ (Arduino). </h2>
               
               
               <a href="https://github.com/duongdang1/laundry-loader" className="link social"><FontAwesomeIcon icon={faFileCode} size="2x"/></a>
