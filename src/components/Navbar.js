@@ -66,7 +66,7 @@ export default class Navbar extends Component {
             </li>
             <li className="nav-item">
               <Button>
-                <a className="style" href="https://drive.google.com/file/d/18coTr-ojouBlkJfMVYo99C8aJAYeSg8q/view?usp=sharing">resume</a>
+                <a className="style" href="https://drive.google.com/file/d/1LuWipsmJWbSfwmEDPXb-cqRT4XhRDDva/view?usp=sharing">resume</a>
               </Button>
             </li>
           </ul>
