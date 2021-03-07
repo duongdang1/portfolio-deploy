@@ -69,16 +69,37 @@ const ProjectItem = (props) => {
                 <a href="https://github.com/duongdang1/projectgame" className="link social"><FontAwesomeIcon icon={faFileCode} size="2x"/></a>
               </div>
               <Button inverse onClick={openDetailHandler}>
-                credentials
+                use these credentials to sign in
               </Button>
             </div>
 
             
             
           </div>
+          <div className="project-info-3">
+            
+            <div className="modalImage-3">
+              <img
+                src="https://i.ibb.co/M2sj4g0/IMG-7172.jpg"
+                alt="modal pic"
+              />
+            </div>
+            <div className="modalText-3">
+            
+              <h1>Feature Project</h1>
+              <h3>Arduino Laundry Loader</h3>
+          
+              <h2>Build a machine that can measure the weight of the laundry load and drop tied-pods when reach a certain weight. The machine is assembled by using cut woods, HX711 sensor, Arduino kit. The sensor and motor's motion is instructed by code in C++ (Arduino). </h2>
+              
+              
+              <a href="https://github.com/duongdang1/laundry-loader" className="link social"><FontAwesomeIcon icon={faFileCode} size="2x"/></a>
+            
+            </div>
+          </div>
+
 
           <div className="credit">
-              <h1>Design and Built by Dang Duong - 2020</h1>
+              <h1>Design and Built by Dang Duong - 2021</h1>
           </div>
           
           <Modal
@@ -88,6 +109,7 @@ const ProjectItem = (props) => {
           >
             <div>
               <h4>{props.detail}</h4>
+              <h5>{props.detail2}</h5>
             </div>
           </Modal>
 

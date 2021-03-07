@@ -26,7 +26,7 @@ const SocialFollow = () => {
                 <a href="https://github.com/duongdang1?tab=repositories" className="github social"><FontAwesomeIcon icon={faGithub} size="3x"/></a>
                 <a href="https://www.linkedin.com/in/dang-duong-90b069195/" className="linkedin social"><FontAwesomeIcon icon={faLinkedin} size="3x"/></a>
                 <Button inverse onClick={openDetailHandler}>
-                    my email and phone number
+                    email and phone number
                 </Button>
             </div>
             <Modal

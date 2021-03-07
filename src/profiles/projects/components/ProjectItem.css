@@ -17,12 +17,12 @@
 }
 .project-info-1{
     width: 100%;
-    
     max-width: calc(100%-60px);
     margin: auto;
     display: flex;
     flex-direction: row;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    
 }
 
 
@@ -31,12 +31,12 @@
 .modalImage img{
     width: 100%;
     padding: 10px;
-    height: 70%;
+    height: 100%;
 }
 
 .modalText{
     font-size: 10px;
-    font-weight:10px;
+    font-weight:lighter;
     width: 60%;
     color: whitesmoke;
     text-align: end;
@@ -46,14 +46,14 @@
 .modalText h2 h1 {
 
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 10px;
     padding: 20px;
 }
 
 .modalText h3{
     color: #66FCF1;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 15px;
     
 
 
@@ -64,23 +64,24 @@
 
 .project-info-2{
     width: 100%;
-    
     max-width: calc(100%-60px);
     margin: auto;
     display: flex;
     flex-direction: row;
+    padding-bottom: 100px;
 }
 
 .modalImage-2 img{
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    height: 80%;
+    height: 100%;
+
 }
 
 .modalText-2{
     font-size: 10px;
-    font-weight:10px;
-    width: 50%;
+    
+    width: 60%;
     color: whitesmoke;
     text-align: end;
     
@@ -89,7 +90,7 @@
 .modalText-2 h2 h1 p{
     
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     
 }
@@ -100,6 +101,44 @@
     font-size: 20px;
 }
 
+.project-info-3{
+    width: 100%;
+    max-width: calc(100%-60px);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.modalImage-3 img{
+    width: 100%;
+    padding: 10px;
+    height: 70%;
+
+}
+
+.modalText-3{
+    font-size: 10px;
+    font-weight:10px;
+    width: 60%;
+    color: whitesmoke;
+    text-align: end;
+    
+}
+
+.modalText-3 h2 h1 p{
+    
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+.modalText-3 h3{
+    color: #66FCF1;
+    font-weight: lighter;
+    font-size: 20px;
+}
 
 .project-social-container{
     padding-top: 20px;
@@ -111,7 +150,7 @@
     color: white;
     font-size: 7px;
     font-weight: lighter;
-    padding-top: 50px;
+    padding-top: 30px;
     opacity: 0.5;
 }
 @media (max-width: 1000px ){

@@ -3,11 +3,12 @@
     display:flex;
     justify-content:center;
     flex-direction: row;
+    
    
     
 }
 .section-background{
-    background: #1F2833;
+   
     
     
 
@@ -45,19 +46,21 @@
     
     font-size: 20px;
     font-weight: lighter;
-    color: #66FCF1;
+    /* color: #66FCF1; */
+    /* color: #05386B; */
+    color: #66FCf1;
 }
 
 .intro-item__info h2{
     font-size: 60px;
-    color: #5DF5E1;
+    color: #66FCf1;
 }
 
 .intro-item__info h3{
     font-size: 20px;
     max-width: 250px;
-    color: #8EE4AF;
+    color: #66FCf1;
     font-weight: 10px;
     opacity: 0.5;
-    font-weight: lighter;
+    
 }
